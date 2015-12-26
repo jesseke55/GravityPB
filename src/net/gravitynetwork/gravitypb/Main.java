@@ -27,7 +27,7 @@ public class Main extends JavaPlugin {
     private void initConfig(){
 
 
-        getConfig().addDefault("", "");
+        getConfig().addDefault("Items.JoinLobby.About", "&aTutorial");
     }
 
     private void noWorldDL(){
