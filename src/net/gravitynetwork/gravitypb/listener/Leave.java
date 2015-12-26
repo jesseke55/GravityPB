@@ -4,8 +4,11 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
 
 /**
- * Created by jesse on 26-12-15.
+ * Copyright (c) 2015-2016, ProtocollWeb/jesseke55/Jesse.
  */
+
+
+
 public class Leave implements Listener {
 
     public void onQuit(PlayerQuitEvent e){

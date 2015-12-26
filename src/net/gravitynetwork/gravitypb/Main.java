@@ -23,4 +23,14 @@ public class Main extends JavaPlugin {
     public static Plugin getPlugin() {
         return plugin;
     }
+
+    private void initConfig(){
+
+
+        getConfig().addDefault("", "");
+    }
+
+    private void noWorldDL(){
+
+    }
 }
