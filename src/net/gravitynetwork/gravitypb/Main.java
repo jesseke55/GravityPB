@@ -14,14 +14,4 @@ public class Main extends JavaPlugin {
     @Override
     public void onDisable() {
     }
-
-    private void initConfig(){
-
-
-        getConfig().addDefault("Items.JoinLobby.About", "&aTutorial");
-    }
-
-    private void noWorldDL(){
-
-    }
 }
